@@ -35,6 +35,7 @@ class PlaceInput extends Component {
         />
         <Button
           title="Add"
+          color="white"
           style={styles.placeButton}
           onPress={this.placeSubmitHandler}
         />
@@ -48,15 +49,22 @@ const styles = StyleSheet.create({
     // flex: 1,
     width: "100%",
     marginTop: "50%",
+    padding: 15,
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center"
+    alignItems: "center",
+    backgroundColor: "#35B0AB",
+    borderWidth: 0.5,
+    borderColor: 'white'
   },
   placeInput: {
-    width: "50%"
+    width: "50%",
+    color: "white"
   },
   placeButton: {
-    width: "30%"
+    width: "30%",
+    color: "white",
+    backgroundColor: "#446E5C"
   }
 });
 

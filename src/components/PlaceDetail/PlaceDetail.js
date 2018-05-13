@@ -21,7 +21,7 @@ const placeDetail = props => {
       <View style={styles.modalContainer}>
         {modalContent}
         <View>
-          <Button title="Delete" color="red" onPress={props.onItemDeleted} />
+          <Button title="Delete" color="#FF4D4D" onPress={props.onItemDeleted} />
           <Button title="Close" onPress={props.onModalClosed} />
         </View>
       </View>
@@ -32,7 +32,10 @@ const placeDetail = props => {
 const styles = StyleSheet.create({
   modalContainer: {
     margin: 22,
-    marginTop: "40%"
+    marginTop: "40%",
+    backgroundColor: "#FFF1BC",
+    borderWidth: 3,
+    borderColor: '#35B0AB'
   },
   placeImage: {
     width: "100%",
@@ -41,7 +44,8 @@ const styles = StyleSheet.create({
   placeName: {
     fontWeight: "bold",
     textAlign: "center",
-    fontSize: 28
+    fontSize: 28,
+    color: "#226B80"
   }
 });
 
