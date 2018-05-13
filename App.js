@@ -19,7 +19,7 @@ export default class App extends Component {
           name: placeName,
           image: {
             uri:
-              "https://c1.staticflickr.com/5/4096/4744241983_34023bf303_b.jpg"
+              "https://cdn.dribbble.com/users/1666570/screenshots/4584965/motherhood_dribbble.jpg"
           }
         })
       };
