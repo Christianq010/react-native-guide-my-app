@@ -9,3 +9,10 @@
 ```bash
 open "rndebugger://set-debugger-loc?host=localhost&port=8081"
 ```
+### Additonal libraries
+* Vector Icons - https://github.com/oblador/react-native-vector-icons
+
+### Installing 3rd Part Libraries
+
+#### Automatic Linking
+> In your project folder, you can run `react-native link` to automatically link all libraries that require linking.
